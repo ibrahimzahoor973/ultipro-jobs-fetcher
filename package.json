@@ -1,0 +1,25 @@
+{
+  "name": "ultipro-jobs-fetcher",
+  "version": "0.1.0",
+  "description": "Script to fetch jobs from UltiPro API and save to CSV",
+  "author": "Ibrahim Zahoor <ibrahimzahoor973@gmail.com>",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx src/index.ts",
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn src/index.ts"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.3.2"
+  }
+}

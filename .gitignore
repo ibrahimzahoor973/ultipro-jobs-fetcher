@@ -1,0 +1,4 @@
+node_modules
+logs/
+output/
+jobs_output.csv
